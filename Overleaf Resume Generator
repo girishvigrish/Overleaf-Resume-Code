@@ -1,0 +1,231 @@
+Resume Template
+% Author : GIRISH
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Girish}} &
+  Email: \href{mailto:}{girishp@gmail.com}\\
+   Mobile:~~~+91-9591351737 \\
+ 
+ \href{https://github.com/girishvigrish}{Github: ~https://github.com/girishvigrish} \\
+ 
+ 
+   \href{https://https://www.linkedin.com/in/girish-p-b0b4241a9}
+   {Linkedin://https://www.linkedin.com/in/girish-p-b0b4241a9}
+   
+  \
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{~~Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Jain University Bangalore}{Bangalore, India}
+      {Bachelor of Technology - Robotics and Automation  GPA: 7.50} {August 2019 - June 2023}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} , Principal of Robotics, Artificial Intelligence, Machine Learning,Automation Process Control Intelligent Control}}}
+      
+      \resumeSubheading
+      {Jaya Jaya Shankara International School}{Chennai, India}
+      {Higher Secondary Education: Computer Science with Maths  GPA: 7.00} {June 2017 - March 2019}
+      
+      \resumeSubheading
+      {St Joseph Matriculation Higher Secondary School}{Chennai, India}
+      { 10th  GPA: 8.02} {June 2004 - March 2017}
+      
+       
+     
+    \resumeSubHeadingListEnd
+	    
+\vspace{-5pt}
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Programming}{~~~~~~Python, PHP,C,SQL C++, Matlab}
+	\resumeSubItem{Frameworks and Libraries }{~~~~Jupyter, Matmolib,Numpy,Pandas,OpenCV}
+	\resumeSubItem{FrontEnd Development}{~~~~~~~~~~~~~~HTML,CSS}
+	\resumeSubItem{Wireframes}{~~~~~~~Microsoft Word,Excel,Powerpoint,}
+	\resumeSubItem{Soft Skills}{~~~~~~~Leadership, Event Management, Writing, Public Speaking, Project Managment}
+
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {The Sparks Foundation {bold}}{Jan 2022 - Present} {Data Science,Web development, IOT and CV intern}
+    
+     \resumeItem{Web Development Intern}{Developing  an Web Based Journal Scrapper to help Researchers identify suitable journal for Publishing}
+     \resumeItem{IOT and CV Intern}{Worked on IOT based animal tracking system for tracking rare animals using sensors and worked on various PLC automation projects}
+     \resumeItem{Data Science and Business Analysis Intern}{Worked on supervised and unsupervised ML and Stock analysis Prediction project and created small projects for International workshops }
+     
+     \resumeSubheading
+     {The Society of Laparoscopy and Robotic Surgeons}{Jan2022-Present}
+     {Research Intern}
+     
+     
+     \resumeItem{Wrote an Review article on Different Robotic Surgery methods implemented in India and US}
+     
+     
+     \resumeItem{Currently Working on Case Study for Implementing Robotics for Brain-Tumour Surgeries}
+     
+     
+    
+      \resumeSubheading{American Project Management Institute}{June 2021 - Present} {Project Manager Intern}
+    
+     \resumeItem{Project Intern}{Mentoring Students on  various projects for  maintaining project documentation, perform project research, efficient communication  and assist in data entry tasks}
+     
+     \resumeItem{Community Lead}{Volunteered for International APM project summit 2021 by managing and communicating with delegates}
+     
+     
+         \resumeItemListEnd \vspace{-5pt}
+         
+         
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\vspace{-5pt}
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{Wiley The Next gen Chat-bot for Emergency medical Consultation and Virtual treatment}{Research oriented, open source, Chat-bot for Helping Patients interact with Doctor in live mode and provide Facility to Provide Medical Suggestion to the Patient in Emergency Case  Tech: Python, NodeJS, IBM Watson , Selenium, TensorFlow }
+
+\vspace{2pt}
+\resumeSubItem{Adhyanth an Eye Defect detector for IT Workers }{An AI based model for predicting eye damage of IT employees  Eyestrain and suggesting suitable alternative exercises for relaxation. Tech: Python, Raspberry Pie, Open CV. Best Research Project at National Level AI Hackathon  for Healthcare 2022 (Work on Progress)}
+\vspace{2pt}
+\resumeSubItem{Prediction of Pandemic in Particular region and Eradication using Machine Learning}{ Open sourced, Research oriented project which Enables scientist to predict the Pandemic in a particular region  and allow officials to take health related  decisions and enabling smooth function of state Tech: Supervised and Unsupervised Learning ,Genetic Algorithm , Python (Work on Progress)}
+\vspace{2pt}
+
+\resumeSubItem{Autonomous Maze solving Robot For Emergency Rescue}{An Autonomous robot for Rescue and Path Planning which can be used for War rescue, Autonomous navigation reaching faster destination using robot locomotion  Tech: Python,Tremaux Algorithm,Arduino,Raspberry Pie }
+
+\vspace{2pt}
+\resumeSubItem{JIVA an IOT Based Healthcare System}{Created from scratch an Healthcare record database to record the database of Patients in Hospital  The launched Database  was among top 1000 Projects in India during Bio-hack 2021.Tech: PYTHON, MySQL, HTML, CSS, THING-SPEAK, JavaScript, ARDUINO (Project in progress)}
+
+\resumeSubItem{ ELSI-Improved  Software app for Tourism  Development in Uttar Pradhesh}{Developing an App from scratch where some features like Google maps,People Support,Local Products,Budget tour plans and Heritages are implemented (Smart India Hackathon Finalist Regional Level,Software winner) Tech: PYTHON, MySQL, HTML, CSS, FIGMA, Navigation and Mapping (Project in progress)}
+
+
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+
+\section{Publications}
+
+\resumeSubHeadingListStart
+\resumeSubItem{The Making and Development of BAXTER The Intelligent Chatbot Empowered with Machine Intelligence Published by International Journal of Computer Sciences and Technology(Reprinted in Research advances in Mathematics and Computer Science by Springer Nature Scopus Indexed) }
+
+\resumeSubItem{Design of IOT Based Instrumentation System was published in IEEE Explore }
+
+\resumeSubItem{"TRANSCHAIN" A Blockchain Framework for Security Systems" and "SECURA Smart and Sheltered transfer of Patient records" Will be Published by Sustainable City and Society Journal Elesiver(Scopus Indexed)}
+
+\resumeSubItem{2 Patents Published and 2 more Patents submitted for Publishing }
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+%-----------Awards-----------------
+\section{Honors and Awards}
+\begin{description}[font=$\bullet$]
+\item {Awarded Title of Best Paper\boldsymbol{} on ICDRIS International Conference for Economics-2021}
+\vspace{-5pt}
+\item {Publons Certified Student Reviewer \Bold at Springer, }
+\vspace{-5pt}
+\item {International Software Project Conference Finalist \Bold on APM Summit 2021  }
+\vspace{-5pt}
+\item {AESA Sports Council Board Member for Indian sports commitee }
+\vspace{-5pt}
+\item {Best Speaker of Chennai City \Bold  NDTV Talent hunt  finalist 2018 }
+\end{description}
+
+\vspace{-5pt}
+
+\vspace{+5pt}
+\section{Volunteer Experience}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+    {Cultural and  Communication Lead at Northwestern University }{United States}
+    {Conducted online  sessions for  skill and communication training imparting over 2000 students}{Jan 2022 - Present}
+\vspace{5pt}
+    % \vspace{10pt}\textbf{\large{Community Experience}}
+    
+    \resumeSubheading
+    {Conference Organizer at NPSE}{Mexico,}
+    {Organised  events, conducted  workshops reaching over 1000 research enthusiasts.}{November2021 - Present}
+     \vspace{5pt}
+    % \vspace{10pt}\textbf{\large{Community Experience}}
+     \resumeSubheading
+    {Robotics Lead at the Society of Surgical Robotics}{Alaska}
+    {Organisded Research camps for International students to Pursue robotic research. }{November2021 - Present}
+
+\resumeSubHeadingListEnd
+
+\end{document}
